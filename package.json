@@ -27,6 +27,8 @@
     "*.{js, ts}": [
       "eslint --cache --fix",
       "prettier --write"
-    ]
+    ],
+    "*.js": "eslint --cache --fix",
+    "*.{js,css,md}": "prettier --write"
   }
 }
